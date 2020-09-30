@@ -27,11 +27,11 @@ print(f"Your result is {result_string}")
 
 if result > 0:
 	profitability = result / receipts
-	print(f"Profitability of your firm = {profitability}")
+	print("Profitability of your firm = %.2f" % profitability)
 
 	print("")
 	ask_number_of_employees = "Please, type number of employees: "
 	number_of_employees = int(input(ask_number_of_employees))
 
 	profit_per_employee = result / number_of_employees
-	print(f"Profit per employee = {profit_per_employee}")
+	print("Profit per employee = %.2f" % profit_per_employee)
