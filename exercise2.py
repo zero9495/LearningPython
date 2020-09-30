@@ -14,4 +14,4 @@ ss = seconds % 60
 mm = (seconds // 60) % 60
 hh = (seconds // 60) // 60
 
-print("Your %d seconds formatted into %d:%d:%d" % (seconds, hh, mm, ss))
+print("Your %d seconds formatted into %.2d:%.2d:%.2d" % (seconds, hh, mm, ss))
