@@ -4,7 +4,8 @@
 	Author: Aleksandr Plyukhin	
 '''
 
-from math import factorial
+def factorial(n):
+	return n*factorial(n-1) if n > 0 else 1
 
 def fact(n):
     for el in range(1, n+1):
