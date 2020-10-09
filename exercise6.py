@@ -1,0 +1,14 @@
+'''
+	Lesson: 4
+	Exersice: 6
+	Author: Aleksandr Plyukhin	
+'''
+
+from itertools import count
+from itertools import cycle
+
+my_count = count(7)
+my_cycle = cycle("ABC")
+
+for _ in range(5):
+    print("(my_count, my_cycle) = ({},{})".format(next(my_count), next(my_cycle)))
